@@ -66,6 +66,7 @@ root=Tk()
 root.title("Message Enconde-Decode")
 root.geometry("450x300")
 root.config(bg="#66C4D9")
+root.resizable(0,0)
 
 text=Label(root,text="Write your message", bg="#66C4D9", foreground="#021F59")
 text.grid(row=1,column=0, pady=20, columnspan=2, padx=20)
